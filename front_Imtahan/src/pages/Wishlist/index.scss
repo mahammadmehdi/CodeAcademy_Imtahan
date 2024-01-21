@@ -1,0 +1,28 @@
+.wislistPage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   
+    .card {
+      display: flex;
+      gap: 20px;
+align-items: center;
+      .image {
+        width: 100px;
+        height: 100px;
+        img {
+          width: 100px;
+          height: 100px;
+        }
+      }
+      .desc{
+        color: #9b9b9b;
+    }
+    }
+  }
+}

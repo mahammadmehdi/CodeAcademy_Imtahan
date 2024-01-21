@@ -1,0 +1,44 @@
+.customersSay{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    .customersSayAll{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        width: 70%;
+        .name{
+            color: #d61c22;
+            font-size: 30px;
+            font-family: 
+            "Indie Flower", cursive;
+        }
+        .header{
+            font-size: 40px;
+        }
+        img{
+width: 70px;
+height: 70px;
+border-radius: 50%;
+        }
+        .desc{
+color: #9b9b9b;
+text-align: center;
+max-width: 700px;
+        }
+        .icons{
+            color: #d61c22;
+            display: flex;
+            gap: 5px;
+
+        }
+        .author{
+            color: #9b9b9b;
+
+        }
+    }
+}

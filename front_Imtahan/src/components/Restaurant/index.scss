@@ -1,0 +1,59 @@
+.restaurantPage{
+    max-width: 100%;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    .restaurantAll{
+        width: 70%;
+        margin: auto;
+        display: flex;
+        gap: 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+        .cards{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            
+            .image{
+                img{
+                    width: 400px;
+                    height: 250px;
+                    border-radius: 10px;
+                }
+
+            }
+            .name{
+color: black;
+font-size: 30px;
+            }
+            .desc{
+                color: #9b9b9b;
+                width: 350px;
+                font-size: 18px;
+
+            }
+            .price{
+
+            }
+            .icons{
+                display: flex;
+                gap: 30px;
+                a{
+                    color: black;
+                }
+            }
+
+        }
+    }
+}
+@media only screen and (max-width: 500px) {
+    .cards{
+      .image {
+         img{
+            max-width: 200px !important;
+            height: 100px !important;
+         }
+      }
+    }
+    }

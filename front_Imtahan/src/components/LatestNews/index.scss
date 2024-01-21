@@ -1,0 +1,68 @@
+.latestNews {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+  .latestNewsAll {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 70%;
+    .name {
+      color: #d61c22;
+      font-size: 30px;
+      font-family: "Indie Flower", cursive;
+    }
+    .header {
+      font-size: 40px;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      margin: auto;
+      justify-content: center;
+      gap: 40px;
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .image {
+          max-width: 400px;
+          height: 250px;
+          border-radius: 10px;
+        }
+        .nameCard {
+          color: #222222;
+          font-size: 25px;
+          max-width: 350px;
+        }
+        .desc {
+          color: #9b9b9b;
+          font-size: 18px;
+          max-width: 350px;
+        }
+        .continue {
+          display: flex;
+          gap: 20px;
+          color: #9b9b9b;
+          .text {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 500px) {
+  .cards{
+    .image {
+        max-width: 200px !important;
+        height: 100px !important;
+    }
+  }
+  }

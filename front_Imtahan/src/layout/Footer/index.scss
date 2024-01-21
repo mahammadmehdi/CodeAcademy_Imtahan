@@ -1,0 +1,117 @@
+.footer{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    background-color: #333333;
+    color: white;
+    padding-top: 5%;
+    .foot{
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        justify-content: center;
+        align-items: center;
+        .top{
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+            .contact{
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+.contactUs{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    .location{
+        display: flex;
+        gap: 10px;
+color: #9b9b9b;
+
+    }
+    .phone{
+        display: flex;
+        gap: 10px;
+        color: #9b9b9b;
+
+    }
+    .email{
+        display: flex;
+        gap: 10px;
+color: #9b9b9b;
+
+    }
+}
+.opneningTime{
+    display: flex;
+                flex-direction: column;
+                gap: 40px;
+    .time{
+        color: #9b9b9b;
+
+    }
+}
+            }
+            .latestTwitter{
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+.email{
+width: 300px;
+color: #9b9b9b;
+
+}
+.buuf{
+    width: 300px;
+color: #9b9b9b;
+}
+            }
+            .gallery{
+                display: flex;
+               flex-direction: column;
+                width: 350px;
+                gap: 20px;
+                .image{
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 10px;
+                    img{
+                        width: 70px;
+                    height: 70px;
+                    }
+                }
+
+            }
+        }
+        .bottom{
+            display: flex;
+            max-width: 100%;
+            margin: auto;
+            justify-content: space-between;
+            padding-top: 5%;
+
+            .left{
+                display: flex;
+                gap: 20px;
+            }
+            .right{
+                color: #9b9b9b;
+                font-size: 17px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .top{
+     display: flex;
+    flex-direction: column;
+   }
+ }
+ @media only screen and (max-width: 400px) {
+    .bottom{
+     display: flex;
+    flex-direction: column;
+   }
+ }
