@@ -1,8 +1,9 @@
 import React, { createContext, useState } from "react";
+import useLocalStorage from "../hook/useLocalStorage";
 
 export const WishlistContext = createContext();
 function WishlistProvider({ children }) {
-  const [wishlist, setWishlist] = useState([]);
+  const [wishlist, setWishlist] = useLocalStorage("wishlist",[]);
 
   function addWishlist(item) {
     const index = wishlist.findIndex((x) => x._id === item._id);

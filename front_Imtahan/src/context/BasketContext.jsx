@@ -1,8 +1,9 @@
 import React, { createContext, useState } from "react";
+import useLocalStorage from "../hook/useLocalStorage";
 
 export const BasketContext = createContext();
 function BasketProvider({ children }) {
-  const [basket, setBasket] = useState([]);
+  const [basket, setBasket] = useLocalStorage("basket",[]);
 
   function addBasket(item) {
     const index = basket.findIndex((x) => x._id === item._id);
